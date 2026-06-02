@@ -1,16 +1,45 @@
-## Hi there 👋
+<h1 align="center">Hi there, I'm Xinbai Wang 👋</h1>
 
-<!--
-**w-xb/w-xb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">Undergraduate Researcher @ Harbin Institute of Technology (HIT)</h3>
 
-Here are some ideas to get you started:
+<p align="center">
+  I am an undergraduate student in the <b>2024 AI Advanced Technology Leader Class</b> at the Harbin Institute of Technology. My research interests are rooted in <b>Computer Vision</b> and <b>Multi-modal AI</b>. I am deeply passionate about <b>Low-Light Image Enhancement (LLIE)</b>, <b>Vision-Language Models (VLMs)</b>, and am actively exploring <b>Vision-Language-Action (VLA)</b> architectures to bridge perception with embodied intelligence.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="mailto:15146890721@163.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-15146890721%40163.com-blue?style=flat-square&logo=gmail">
+  </a>
+  <a href="https://arxiv.org/abs/2605.02212">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2605.02212-B31B1B?style=flat-square&logo=arxiv">
+  </a>
+</p>
+
+---
+
+### 🏆 Achievements & Publications
+- **CVPR 2026 NTIRE Workshop:** Co-authored the official technical report for the **NTIRE 2026 Efficient Low-Light Image Enhancement (LLIE) Challenge**.
+- **NTIRE 2026 Challenge Results:** Developed **MobileIE-6Ch**, an ultra-lightweight Retinex-style model with only **101.9K parameters**, achieving excellent efficiency-performance trade-offs:
+  - **Rank 7** in the Main Technical-Report Table
+  - **Rank 9** in the Full Final-Testing Table
+- **Preprint:** [*Efficient Low-Light Image Enhancement for NTIRE 2026*] (arXiv:2605.02212)
+
+### 🔭 Current Research & Focus
+- **Low-Level Vision (LLIE):** Focusing on extreme model compression, lightweight CNNs/ViTs, and real-time image restoration.
+- **Vision-Language Models (VLMs):** Investigating multi-modal understanding, representation alignment, and generative AI via CLIP, LLaVA, and BLIP.
+- **Vision-Language-Action (VLA):** Transitioning multi-modal perception into actionable intelligence for next-generation embodied AI systems.
+
+### 🛠️ Tech Stack & Workflow
+- **Frameworks & Deep Learning:** PyTorch, torchvision, Transformers, Hugging Face
+- **Core Architectures:** MobileIE-6Ch, Retinexformer, LLaVA, BLIP
+- **AI-Assisted Development:** Highly proficient in "Vibecoding"—leveraging AI agents and LLMs to rapidly prototype complex neural network modules, implement experimental pipelines, and accelerate research iterations.
+
+### 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=w-xb&show_icons=true&theme=radium&hide_border=true" alt="Xinbai's GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=w-xb&theme=radium&hide_border=true" alt="Xinbai's GitHub Streak" width="48%" />
+</p>
+<!-- 注意：请将上面链接中的 YOUR_GITHUB_USERNAME 替换为你的实际 GitHub 用户名（如 w-xb） -->
+
+---
+<p align="center"><i>Always open to discussing CV research, MLLMs, Embodied AI (VLA), and potential collaborations! 🚀</i></p>
