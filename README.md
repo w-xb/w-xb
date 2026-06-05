@@ -31,11 +31,7 @@
 - **Core Architectures:** MobileIE-6Ch, Retinexformer, LLaVA, BLIP
 - **AI-Assisted Development:** Highly proficient in "Vibecoding"—leveraging AI agents and LLMs to rapidly prototype complex neural network modules, implement experimental pipelines, and accelerate research iterations.
 
-### 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=w-xb&show_icons=true&theme=radium&hide_border=true" alt="Xinbai's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=w-xb&theme=radium&hide_border=true" alt="Xinbai's GitHub Streak" width="48%" />
-</p>
+
 
 ---
 <p align="center"><i>Always open to discussing CV research, MLLMs, Embodied AI (VLA), and potential collaborations! 🚀</i></p>
