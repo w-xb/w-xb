@@ -5,7 +5,7 @@
 </h3>
 
 <p align="center">
-  <b>Vision-Language-Action · World Models · Multimodal Learning · Embodied AI</b>
+  <b>Agent · World Models · Multimodal Learning · Embodied AI</b>
 </p>
 
 <p align="center">
