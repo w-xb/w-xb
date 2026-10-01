@@ -1,74 +1,39 @@
-<h1 align="center">Hi, I'm Xinbai Wang 👋</h1>
+<div align="center">
 
-<h3 align="center">
-  Undergraduate @ Harbin Institute of Technology · Research Intern @ OrionLab
-</h3>
+# Hi, I'm Xinbai Wang 👋
 
-<p align="center">
-  <b>Agent · World Models · Multimodal Learning · Embodied AI</b>
-</p>
+**Undergraduate @ Harbin Institute of Technology**  
+*Embodied Agents · Agentic Systems · Vision-Language-Action Models · World Models*
 
-<p align="center">
-  <a href="mailto:15146890721@163.com">
-    <img src="https://img.shields.io/badge/Email-15146890721%40163.com-blue?style=flat-square&logo=gmail">
-  </a>
-  <a href="https://rshaojimmy.github.io/OrionLab/">
-    <img src="https://img.shields.io/badge/Research-OrionLab-6f42c1?style=flat-square">
-  </a>
-</p>
+[![Email](https://img.shields.io/badge/Email-15146890721%40163.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:15146890721@163.com)
+[![GitHub](https://img.shields.io/badge/GitHub-XinbaiWang-181717?style=flat-square&logo=github&logoColor=white)](https://github.com)
+
+</div>
 
 ---
 
-## 👋 About Me
+### 📌 About Me
 
-I am an undergraduate student in the **2024 AI Advanced Technology Leader Class** at the **Harbin Institute of Technology (HIT)**.
+I am an undergraduate student in the **AI Advanced Technology Leader Class (2024)** at **Harbin Institute of Technology (HIT)**.
 
-I am currently a research intern at **[OrionLab](https://rshaojimmy.github.io/OrionLab/)**, advised by **Prof. Rui Shao**. My research focuses on connecting multimodal perception, environment understanding, and robotic action generation.
+My research focuses on connecting **multimodal perception**, **environment dynamics**, and **action generation** to build **embodied agents** and **agentic systems** that can perceive, reason, and interact autonomously in complex environments.
 
----
-
-## 🔭 Research Interests
-
-**Vision-Language-Action Models · World Models · Multimodal Large Language Models · Embodied Intelligence**
-
-I am interested in building intelligent agents that can perceive multimodal environments, predict future dynamics, reason over tasks, and generate effective actions.
+- 🔭 **Research Interests:** Embodied Agents, Agentic Systems, Vision-Language-Action (VLA) Models, World Models
+- 🛠️ **Tech Stack:** Python, PyTorch, Transformers, Computer Vision, Linux / Git
 
 ---
 
-## 🧪 Research Experience
+### 📝 Selected Work
 
-### OrionLab, Harbin Institute of Technology (Shenzhen)
+#### **Efficient Low-Light Image Enhancement (NTIRE 2026)**
+*Technical Report Co-author & Model Developer*  
+[![arXiv](https://img.shields.io/badge/arXiv-2605.02212-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.02212)
 
-**Research Intern** · Advisor: **Prof. Rui Shao**
-
-- Exploring **VLA models, world models, and multimodal embodied intelligence**.
-- Investigating predictive visual representations and Transformer-based robotic action learning.
-
----
-
-## 📝 Selected Work
-
-### Efficient Low-Light Image Enhancement for NTIRE 2026
-
-Co-authored the official technical report for the **NTIRE 2026 Efficient Low-Light Image Enhancement Challenge**.
-
-Developed **MobileIE-6Ch**, a lightweight Retinex-style model with only **101.9K parameters**:
-
-- **Rank 7** in the Main Technical-Report Table
-- **Rank 9** in the Full Final-Testing Table
-
-<a href="https://arxiv.org/abs/2605.02212">
-  <img src="https://img.shields.io/badge/arXiv-2605.02212-B31B1B?style=flat-square&logo=arxiv">
-</a>
+- Developed **MobileIE-6Ch**, an ultra-lightweight Retinex-based model with only **101.9K parameters**.
+- Achieved **Rank 7** in the Main Technical Report and **Rank 9** in the Full Final Testing Benchmark.
 
 ---
 
-## 🛠️ Skills
-
-**Python · PyTorch · Transformers · Multimodal Learning · Computer Vision · Git · Linux**
-
----
-
-<p align="center">
-  <i>Open to research discussions and collaborations in embodied and multimodal intelligence.</i>
-</p>
+<div align="center">
+  <sub>Open to research discussions and collaborations in agentic systems and embodied AI. Feel free to reach out via email!</sub>
+</div>
