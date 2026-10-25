@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Xinbai Wang — projects in computer vision, multimodal AI, and embodied intelligence.">
+  <meta property="og:title" content="Xinbai Wang | Portfolio">
+  <meta property="og:description" content="Computer Vision · Multimodal AI · Embodied Intelligence">
+  <meta property="og:type" content="website">
+  <title>Xinbai Wang | Portfolio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fa;
+      --paper: #ffffff;
+      --ink: #17212f;
+      --muted: #5d6878;
+      --line: #e3e7ed;
+      --accent: #176b67;
+      --accent-soft: #e7f3f1;
+      --max: 1060px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.7 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    a:hover { color: var(--accent); }
+    .wrap { width: min(var(--max), calc(100% - 44px)); margin: 0 auto; }
+    header { padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .nav { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+    .wordmark { font-weight: 750; letter-spacing: -.04em; text-decoration: none; }
+    .navlinks { display: flex; gap: 22px; color: var(--muted); font-size: 14px; }
+    .navlinks a { text-decoration: none; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(240px, .8fr); gap: 60px; align-items: center; padding: 82px 0 76px; }
+    .eyebrow { margin: 0 0 12px; color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(42px, 6vw, 66px); line-height: 1.08; letter-spacing: -.06em; }
+    .subtitle { margin: 19px 0 0; font-size: clamp(18px, 2vw, 22px); color: #344153; letter-spacing: -.025em; }
+    .intro { max-width: 650px; margin: 19px 0 0; color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; padding: 10px 16px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); font-size: 14px; font-weight: 650; text-decoration: none; }
+    .button.primary { border-color: var(--accent); background: var(--accent); color: white; }
+    .button.primary:hover { background: #105754; color: white; }
+    .hero-panel { padding: 26px; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); box-shadow: 0 10px 35px rgba(25, 40, 60, .035); }
+    .panel-label { margin: 0 0 18px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .highlight { padding: 15px 0; border-top: 1px solid var(--line); }
+    .highlight:first-of-type { border-top: 0; padding-top: 0; }
+    .highlight strong { display: block; font-size: 17px; letter-spacing: -.02em; }
+    .highlight span { display: block; margin-top: 3px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+    section { padding: 25px 0 58px; }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin-bottom: 22px; }
+    h2 { margin: 0; font-size: 26px; letter-spacing: -.045em; }
+    .section-note { color: var(--muted); font-size: 13px; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .card { padding: 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); }
+    .card-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; }
+    .tag { display: inline-block; padding: 4px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .04em; }
+    h3 { margin: 0; font-size: 19px; line-height: 1.35; letter-spacing: -.03em; }
+    .card p { margin: 11px 0 0; color: var(--muted); font-size: 14px; }
+    .card-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 18px; font-size: 13px; font-weight: 700; }
+    .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .list { margin: 0; padding: 0; list-style: none; }
+    .list li { position: relative; padding: 14px 0 14px 20px; border-top: 1px solid var(--line); color: var(--muted); }
+    .list li::before { content: ""; position: absolute; left: 1px; top: 25px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+    .list strong { color: var(--ink); font-weight: 700; }
+    .education { display: flex; align-items: flex-start; gap: 16px; padding: 23px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); }
+    .edu-mark { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); font-weight: 850; }
+    .education h3 { margin-top: 0; }
+    .education p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+    footer { margin-top: 12px; padding: 25px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; gap: 30px; padding: 58px 0 52px; }
+      .hero-panel { max-width: none; }
+      .cards, .columns { grid-template-columns: 1fr; gap: 14px; }
+      .nav { align-items: flex-start; }
+      .navlinks { gap: 13px; flex-wrap: wrap; justify-content: flex-end; }
+      .section-head { align-items: flex-start; flex-direction: column; gap: 3px; }
+    }
+    @media (max-width: 430px) {
+      .wrap { width: min(var(--max), calc(100% - 30px)); }
+      header { padding: 18px 0; }
+      .nav { flex-direction: column; gap: 10px; }
+      .navlinks { justify-content: flex-start; }
+      .hero { padding-top: 44px; }
+      .card, .hero-panel { padding: 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="wordmark" href="#top">XW / Portfolio</a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#interests">Interests</a>
+        <a href="https://github.com/w-xb" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Computer Vision · Multimodal AI · Embodied Intelligence</p>
+        <h1>Xinbai Wang</h1>
+        <p class="subtitle">Undergraduate at Harbin Institute of Technology</p>
+        <p class="intro">
+          I build and evaluate efficient vision models and explore how multimodal systems can
+          perceive, reason, and act in real or simulated environments. My recent work spans
+          low-light image enhancement, vision-language-action models, and embodied-agent systems.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore projects ↓</a>
+          <a class="button" href="https://github.com/w-xb" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Selected highlights">
+        <p class="panel-label">Selected highlights</p>
+        <div class="highlight">
+          <strong>NTIRE 2026 · Rank 7</strong>
+          <span>Efficient Low-Light Image Enhancement Challenge — main technical-report table</span>
+        </div>
+        <div class="highlight">
+          <strong>National First Prize</strong>
+          <span>National Undergraduate Mechanical Innovation Design Competition · 2026</span>
+        </div>
+        <div class="highlight">
+          <strong>Open-source projects</strong>
+          <span>Low-light enhancement implementation and an Agentic Robotics research collection</span>
+        </div>
+      </aside>
+    </div>
+
+    <section id="projects">
+      <div class="section-head">
+        <h2>Selected Projects</h2>
+        <span class="section-note">A few projects and technical contributions</span>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top"><span class="tag">COMPUTER VISION</span><span class="section-note">NTIRE 2026</span></div>
+          <h3>MobileIE-6Ch — Efficient Low-Light Image Enhancement</h3>
+          <p>
+            Led development of a lightweight Retinex-style enhancement model with a six-channel
+            prediction head. The released model contains 101.9K parameters and ranked 7th in the
+            challenge's main technical-report table.
+          </p>
+          <div class="card-links">
+            <a href="https://github.com/w-xb/MobileIE-6Ch" target="_blank" rel="noreferrer">Code ↗</a>
+            <a href="https://arxiv.org/abs/2605.02212" target="_blank" rel="noreferrer">Challenge report ↗</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag">EMBODIED AI</span><span class="section-note">Research collection</span></div>
+          <h3>Awesome Agentic Robotics</h3>
+          <p>
+            A curated collection of papers and open-source resources on agentic robotics, VLA models,
+            embodied memory, planning, verification, failure recovery, and self-evolving systems.
+          </p>
+          <div class="card-links">
+            <a href="https://github.com/w-xb/awesome-agentic-robotics" target="_blank" rel="noreferrer">Browse collection ↗</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag">ROBOTICS</span><span class="section-note">National-level project</span></div>
+          <h3>Vision-Guided Fully Actuated Dexterous Hand</h3>
+          <p>
+            Contributed to multi-scale object detection, visual reasoning, and lightweight edge
+            deployment for a National Undergraduate Innovation and Entrepreneurship Training Program.
+          </p>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag">VLA MODELS</span><span class="section-note">Simulation & evaluation</span></div>
+          <h3>Vision-Language-Action Model Evaluation</h3>
+          <p>
+            Worked with π0.5 and OpenVLA, including model deployment, reproduction, inference analysis,
+            and evaluation in the LIBERO simulation benchmark.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <div class="section-head">
+        <h2>Selected Achievements</h2>
+        <span class="section-note">Competition results and recognition</span>
+      </div>
+      <div class="columns">
+        <ul class="list">
+          <li><strong>2026 · National First Prize</strong><br>National Undergraduate Mechanical Innovation Design Competition</li>
+          <li><strong>2025 · National Third Prize</strong><br>China Collegiate Computing Contest — AI Creative Competition</li>
+        </ul>
+        <ul class="list">
+          <li><strong>2025 · Provincial First Prize</strong><br>China Undergraduate Mathematical Contest in Modeling</li>
+          <li><strong>2025 · National Scholarship</strong><br>Harbin Institute of Technology</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="interests">
+      <div class="section-head">
+        <h2>Technical Interests</h2>
+        <span class="section-note">Topics I work on and explore</span>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Vision & Multimodal Learning</h3>
+          <p>Computer vision, efficient visual perception, multimodal representations, and vision-language models.</p>
+        </article>
+        <article class="card">
+          <h3>Embodied AI & Agentic Systems</h3>
+          <p>VLA policies, embodied reasoning, spatial understanding, task execution, verification, and recovery.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="education">
+        <div class="edu-mark" aria-hidden="true">HIT</div>
+        <div>
+          <h3>Harbin Institute of Technology</h3>
+          <p>School of Computing · AI Advanced Technology Leader Class</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>Xinbai Wang · Personal portfolio</span>
+      <span><a href="https://github.com/w-xb" target="_blank" rel="noreferrer">GitHub</a> · Built with HTML & CSS</span>
+    </div>
+  </footer>
+</body>
+</html>
